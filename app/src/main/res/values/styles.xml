@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorZipcodiMain</item>
+        <item name="colorPrimaryDark">@color/colorZipcodiMain</item>
+        <item name="colorAccent">@color/colorZipcodiMain</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="colorControlNormal">@color/colorZipcodiMain</item>
+        <item name="android:textColorAlertDialogListItem">@color/colorZipcodiMain</item>
+        <item name="android:textColorSecondary">@color/colorZipcodiMain</item>
+        <item name="android:windowBackground">@color/colorZipcodiMain</item>
+    </style>
+
+    <style name="MyToolbar" parent="@style/Widget.AppCompat.Toolbar" />
+
+    <style name="MyToolbar.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextAppearance">@style/MyTitleTextAppearance</item>
+        <item name="subtitleTextAppearance">@style/MyTitleTextAppearance</item>
+    </style>
+
+    <style name="MyTitleTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:textColor">@color/colorZipcodiMain</item>
+    </style>
+</resources>
